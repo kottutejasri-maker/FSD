@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Registration Form</title>
+
+    <style>
+        table {
+            border-collapse: collapse;   
+        }
+        td {
+            padding: 8px;
+        }
+    </style>
+
+</head>
+<body>
+
+<form>
+
+<table border="1" align="center">
+<caption><b>Exam Registration Form</b></caption>
+
+<tr>
+    <td>Student Name</td>
+    <td><input type="text" name="sname"></td>
+</tr>
+
+<tr>
+    <td>Hall Ticket No</td>
+    <td><input type="text" name="htno"></td>
+</tr>
+
+
+<tr>
+    <td>Mobile Number</td>
+    <td><input type="tel" name="mobile"></td>
+</tr>
+
+<tr>
+    <td>Date of Birth</td>
+    <td><input type="date" name="dob"></td>
+</tr>
+
+<tr>
+    <td>Gender</td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+    </td>
+</tr>
+
+<tr>
+    <td>Semester</td>
+    <td>
+        <select>
+            <option>Select Semester</option>
+            <option>Semester I</option>
+            <option>Semester II</option>
+            <option>Semester III</option>
+            <option>Semester IV</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Subjects</td>
+    <td>
+        <input type="checkbox"> DS
+        <input type="checkbox"> OS
+        <input type="checkbox"> DBMS
+        <input type="checkbox"> Java
+    </td>
+</tr>
+
+<tr>
+    <td>Exam Type</td>
+    <td>
+        <select>
+            <option>Select Exam Type</option>
+            <option>Mid Examination</option>
+            <option>Internal Examination</option>
+            <option>Semester Examination</option>
+            <option>Supplementary Examination</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Exam Centre</td>
+    <td>
+        <select>
+            <option>Select Centre</option>
+            <option>Hyderabad</option>
+            <option>Vijayawada</option>
+            <option>Guntur</option>
+            <option>Tirupati</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" align="center">
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
